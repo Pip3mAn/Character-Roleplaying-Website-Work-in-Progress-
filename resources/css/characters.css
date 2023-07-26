@@ -1,0 +1,30 @@
+.characterBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.characterImg{
+    margin: 34px;
+    border: 3px solid azure;
+}
+
+.characterImg img{
+    float: left;
+    padding-right: 16px;
+}
+
+.characterImg p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    color:azure;
+    background: rgb(32, 32, 32);
+    font-size: 20px;
+}
+
+.carousel {
+    width:500px;
+    height:500px;
+    margin: 32 auto;
+  }

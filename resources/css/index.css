@@ -1,0 +1,116 @@
+body {
+    background-image: url(../../images/blurbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    padding-top: 32px;
+}
+
+.aboutMe h1{
+    padding-bottom: 32px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+.aboutPic img{
+    float: left;
+    padding-right: 32px;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.aboutPic p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    color:azure;
+    background: hsla(0, 100%, 0%, 0.3);
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.aboutMe ul{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    color:azure;
+    background: hsla(0, 100%, 0%, 0.3);
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.aboutPic h2{
+    color:azure;
+}
+
+.nav a{
+ color: azure;   
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 16px;
+}
+
+.nav a:hover{
+    color:greenyellow;
+}
+
+.nav{
+    padding: 16px;
+    --bs-nav-link-hover-color: greenyellow;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid azure;
+    max-width: 100%;
+    margin: 32px;
+    overflow: hidden;
+}
+
+.mainContent h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 16px;
+    color: azure;
+}
+
+.charactersMini {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.charactersMini img{
+    margin: 12px;
+    margin-bottom: 18px;
+    border: 3px solid azure;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.characters h3{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: azure;
+    max-width: 100%;
+}
+
+.characters img{
+    width: 100%;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    max-width: 100%;
+  }
+  
+  .characters img:hover{
+    transform: scale(1.05,1.05);
+  }
